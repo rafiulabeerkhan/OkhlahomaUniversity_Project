@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OC</title>
+    <link rel="icon" type="image/x-icon" href="oclogo2.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="container-fluid ">
+
+
+
+    <div class="text-center " style=" font-family: monospace; font-size: xx-large;
+     background-image: url(oclogo2.png); overflow: hidden;">
+        <img src="oclogo.png" alt="Logo" height="60px" width="70px"> 
+       
+        <h1 style="background-color: #002e46; color: #ffffff;" class="d-inline-block">
+            OKHLAHOMA CHRISTIAN UNIVERSITY
+
+        </h1>
+
+        <button type="button" class="btn me-1  float-end " style="background-color: #811429; color: #ffffff; ; height: 50px;" data-bs-toggle="modal"
+            data-bs-target="#myModal">
+            LOGIN
+        </button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Login to your OC's Account</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" style="color: #811429;">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"
+                                    style="color: #811429;">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1" style="color: #811429;">Check me
+                                    out</label>
+                            </div>
+                            <button type="submit" class="btn" style="background-color: #811429;">Submit</button>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark nav-justified navbar sticky-top">
+        <div class="container-fluid ">
+
+            <a class="navbar-brand rounded-circle" href="#"> <img src="oclogo2.png" alt="OKC" width="50"> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav justify-content-around nav-tabs bg-black me-auto">
+
+                    <li class="nav-item bg-brown "><a class="nav-link text-white" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item bg-brown "> <a class="nav-link text-white" href="about.html"> About </a>
+
+                    </li>
+
+                    <li class="nav-item bg-brown "><a class="nav-link text-white" href="parents.html">Parents</a></li>
+
+                    <li class="nav-item "><a class="nav-link text-white" href="student.html">Students</a></li>
+
+                    <li class="nav-item "><a class="nav-link text-white" href="services.html">Services</a></li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn" style="background-color:#811429 " type="button">Search</button>
+                </form> <br>
+                <!-- <form action="login.html" class="d-flex">
+                    <button class="btn" style="background-color:#811429 " type="button">Login</button>
+                </form> -->
+                <!--  Open the Modal -->
+                <button type="button" class="btn" style="background-color: #811429; color: #ffffff;"
+                    data-bs-toggle="modal" data-bs-target="#myModal">
+                    LOGIN
+                </button>
+
+                <!-- Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Please provide your Email & Password</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label" style="color: #811429;">Email
+                                        address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label"
+                                            style="color: #811429;">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1"
+                                            style="color: #811429;">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn" style="background-color: #811429;">Submit</button>
+
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+    <br>
+
+    <H2 style="color: #811429;"> THE WORLD AWATIS FOR YOU</H2>
+
+
+    <!-- <div class="container m-3 ">
+
+        <H2 style="color: #811429;"> THE WORLD AWATIS FOR YOU</H2>
+    </div> -->
+
+
+    <div class="container-fluid">
+        <div class="float-start">
+            <img src="Awaits.jpeg" alt="University" height="400px" width="700px">
+        </div>
+        <div class="float-" style="color: #811429;font-family:Verdana, Geneva, Tahoma, sans-serif">
+
+
+            <h3>
+                You are want­ed at OC and great things are expect­ed of you. Let’s explore, learn and grow togeth­er in
+                this community.
+            </h3>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <div class="container-fluid float-start mt-5">
+
+
+        <br>
+        <!-- <div class="rowspan">
+    <col>2,250 <br> STUDENTS 
+    <col> 13:1 <br>STUDENTS : FACULTY RATIO
+    <col> 365 <br> 24/7/365 CAMPUS POLICE ON DUTY
+<col> 68 <br> STUDENT ORGANIZARION -->
+    </div>
+    </div>
+    <div class="row" style="background-color: #811429;">
+        <div class="col" style="color: #ffffff;  font-size: 25px; ">
+            <H6>2250 </H6>Students
+        </div>
+        <div class="col" style="color: #ffffff;  font-size: 20px; ">
+            <H6>13:1 </H6> (STUDENTS:FACULTY RATIO)
+        </div>
+        <div class="col" style="color:  #ffffff;  font-size: 20px; ">
+            <H6>365</H6>24/07/365 CAMPUS POLICE ON DUTY
+        </div>
+        <div class="col" style="color: #ffffff;  font-size: 20px; ">
+            <H6>68</H6> STUDENT ORGANIZARION
+
+        </div>
+
+    </div>
+
+    <!-- <div class="container-fluid"  style="background-color: #811429;">
+    <div class="float-start">
+        <img src="major.jpeg" alt="Major" width="700px" height="500px">
+    </div>
+    <div class="float-center" style="background-color: #811429;">
+<h2>PROGRAMS
+    & MAJORS</h2>
+  <p style="background-color: #811429; color: #ffffff;">
+    Education at OC is personal. We believe in treating students within their own unique context from admission to graduation. Customize your experience with undergrad research, internships and mentoring.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure incidunt ullam, velit error culpa deserunt architecto laboriosam, fugiat animi ut tempore quis sint libero?
+  </p>
+  
+    </div>
+
+
+
+</div> -->
+
+    <div class="row ">
+        <p> Find Your Home At OC--------> </p>
+
+        <div class="col d-flex">
+            <img src="major.jpeg" alt="Major" class="img-fluid">
+        </div>
+        <div class="col d-flex" style="background-color:#811429; padding-left: 200px; padding-top: 180px;">
+            <div class="w-75 ">
+
+
+                <h1 style="background-color: #811429; color: #ffffff;">
+                    P R O G R A M S <br> & <br> M A J O R S
+                </h1>
+                <p style="color: #ffffff;" class="px-2">
+                    Education at OC is personal. We believe in treating students within their own unique context from
+                    admission to graduation. Customize your experience with undergrad research, internships and
+                    mentoring.
+                </p>
+
+                <label for="Search"></label>
+                <input type="search" name="Search" id="Search" placeholder="Search Programs & Majors"
+                    style="width: 500px; ">
+
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+
+            <div class="col  px-0 text-center d-flex align-items-center justify-content-center">
+                <div>
+
+
+                    <h1 style="color: #811429;">
+                        Work-based Learn­ing Programs
+                    </h1>
+                    <p>
+                        OC's work-based programs give you a job and an education! Get on-the-job training while taking
+                        classes to earn a degree alongside a paycheck!
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="workbased.jpeg" alt="Work-based" class="img-fluid">
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="col">
+        <div>
+
+        </div>
+
+    </div> -->
+    <hr>
+    <div class="container-fluid row">
+        <p style="font-size: 30px;">
+            Recent OC News
+        </p>
+    </div>
+    <div class="row">
+        <div style="color: #811429;" class="col">
+            <p>OC receives $75,000 <br>grant to fund
+                healthcare program
+            </p>
+            <u>AUG 31, 2023</u>
+        </div>
+        <div style="color: #811429;" class="col">
+            <p>OC’s “Heritage Scholarship” is available for Fall 2024, first-year students
+            </p> <u>
+                MAY 24, 2023
+            </u>
+        </div>
+
+        <div style="color: #811429;" class="col">
+            <p>2023 McBride & OG&E Scholars Announced
+            </p>
+            <u>
+                APR 28, 2023
+            </u>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <a href="#" class="abc"> View All News Here---></a>
+
+        </div>
+
+
+
+    </div>
+    <hr>
+    <div class="container-fluid">
+
+        <div class="row" style="background-color: #f9c634;">
+
+
+            <div class="col  px-0 text-center d-flex align-items-center justify-content-center">
+                <div>
+
+
+                    <h1 style="color: #811429;">
+                        E A G L E <br> S P O T L I G H T
+                    </h1>
+                    <p>
+                        "I love OC because it’s a place where community is emphasized, and I feel very welcomed and at
+                        home here. I really look up to the Bible department staff because they create a lot of different
+                        avenues for their students. They are just truly people of the Word and want to see their
+                        students excel."
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="student.jpeg" alt="Work-based" class="img-fluid">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center" style="background-color: #002e46; color:#ffffff;">
+            <div class="px-5 m-5">
+                <h3>
+                    W H Y <br> O C ?
+                </h3>
+            </div>
+            <div class="col d-flex px-5 m-10justify-content-center">
+
+
+                <div class="col m-3">
+                    <u>Academics</u>
+                    <p>Our students are purpose-driven innovators preparing for a future we haven't yet discovered.</p>
+                    <ul>
+                        <li>
+                            Best Total Package University in Oklahoma (Zippia, 2019)
+                        </li>
+                        <li>#6 Small College in the nation for Computer Science (Best Value Schools, 2019)</li>
+                        <li>Top 50 nationally ranked Gaming & Animation program (Princeton Review)</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center" style="background-color: #002e46; color:#ffffff;">
+            <div class="col d-flex px-5 m-10justify-content-center">
+
+                <div class="col m-3">
+                    <u>Affordability</u>
+                    <p>We want to help you find your significance at OC! So, we are serious about keeping costs below
+                        the national average.</p>
+                    <ul>
+                        <li>
+                            95% of OC students receive financial aid
+                        </li>
+                        <li>OC student loan debt is $10,000 below national average</li>
+                        <li>College Factual says OC is a best value nationwide</li>
+                        <li>
+                            Tuition at OC is $12,000 below the national average for 4-year private universities.
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center" style="background-color: #002e46; color:#ffffff;">
+            <div class="col d-flex px-5 m-10justify-content-center">
+
+                <div class="col m-3">
+                    <u>Student Life</u>
+                    <p>At OC, you are a part of a community of unique individuals who help each other thrive. Your
+                        lifelong best friends await!</p>
+                    <ul>
+                        <li>
+                            Half of our students join a Social Service Club
+                        </li>
+                        <li>77% of students live on campus</li>
+                        <li>54% of students are from out of state and 5% are international</li>
+                        <li>
+                            2,000+ spiritual life events annually
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="d-flex px5 justify-content-around" style="background-color: #811429; color: #ffffff;">
+        <div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+            WHAT'S YOUR NEXT STEP?</div>
+
+
+
+        <div style="font-size: 25px; ">
+            <ul> <a href="#" style="color: #ffffff;">Request Information</a> </ul>
+            <ul> <a href="#" style="color: #ffffff;">Schedule a Visit</a> </ul>
+            <ul> <a href="#" style="color: #ffffff;">Apply Now</a> </ul>
+
+        </div>
+
+    </div>
+    <br><br>
+    <footer>
+        <div class="container-fluid font-monospace" style="background-color:#ffffff color:#811429">
+            <div class="row " style="background-color:#ffffff">
+                <div class="col-4  align-items-start" style=" background-color:#ffffff"> <b>Accredited </b><br>
+                    <b>Higher Learning
+                        Commission</b> <br> <a href="#" style="color:#811429">Verify Status Here...</a>
+                </div>
+                <div class="col-5" style="background-color:#ffffff">
+                    <div>
+                        <address>
+                            <h6 style="color: #811429;"> Our Location</h6>
+                            <p>
+                            <address style="color: #811429;">2501 E, Memorial Road, OK 73013</address>
+                            </p>
+                        </address>
+                    </div>
+                    <br>
+                    <div class="col-5">
+                        <address>
+                            <div>
+                                <address>
+                                    <h6 style="color: #811429;"> Contact</h6>
+                                    <p>
+                                        (800) 877-2010
+                                        Info@ec.edu
+                                    </p>
+                                </address>
+                            </div>
+                        </address>
+                        <div class="row" style="background-color:#ffffff;">
+                            <div class="col-12">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-x-twitter fa-2xl" style="color: #811429;"></i>
+                                </a>
+
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-instagram fa-2xl" style="color: #811429;"></i></a>
+
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-facebook fa-2xl" style="color: #811429;"></i> </a>
+
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-youtube fa-2xl" style="color: #811429;"></i>
+                                </a>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+            <div class="float-lg-end" style="background-color:#ffffff;">
+
+                <img src="footlogo.png" alt="footerlogo" style="height: 150px; width: 250px;">
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

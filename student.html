@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OC</title>
+    <link rel="icon" type="image/x-icon" href="oclogo2.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+    <div class="text-center " style=" font-family: monospace; font-size: xx-large;
+     background-image: url(oclogo2.png); overflow: hidden;">
+        <img src="oclogo.png" alt="Logo" height="60px" width="70px"> 
+       
+        <h1 style="background-color: #002e46; color: #ffffff;" class="d-inline-block">
+            OKHLAHOMA CHRISTIAN UNIVERSITY
+
+        </h1>
+
+        <button type="button" class="btn me-1  float-end " style="background-color: #811429; color: #ffffff; ; height: 50px;" data-bs-toggle="modal"
+            data-bs-target="#myModal">
+            LOGIN
+        </button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Login to your OC's Account</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" style="color: #811429;">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"
+                                    style="color: #811429;">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1" style="color: #811429;">Check me
+                                    out</label>
+                            </div>
+                            <button type="submit" class="btn" style="background-color: #811429;">Submit</button>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark nav-justified navbar sticky-top">
+        <div class="container-fluid ">
+
+            <a class="navbar-brand rounded-circle" href="/"> <img src="oclogo2.png" alt="OKC" width="50"> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav justify-content-around nav-tabs bg-black me-auto">
+
+                    <li class="nav-item bg-brown "><a class="nav-link text-white" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item bg-brown "> <a class="nav-link text-white" href="/about.html"> About </a>
+
+                    </li>
+
+                    <li class="nav-item bg-brown "><a class="nav-link text-white" href="parents.html">Parents</a></li>
+
+                    <li class="nav-item "><a class="nav-link text-white" href="student.html">Students</a></li>
+
+                    <li class="nav-item "><a class="nav-link text-white" href="services.html">Services</a></li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn" style="background-color:#811429 " type="button">Search</button>
+                </form>
+            </div>
+
+        </div>
+
+        </div>
+    </nav>
+    <br>
+    <div class="container-fluid">
+
+
+        <div id="prnts" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#prnts" data-bs-slide-to="0" class="active hbutton" ></button>
+                <button type="button" data-bs-target="#prnts" data-bs-slide-to="1" class="active hbutton" ></button>
+                <button type="button" data-bs-target="#prnts" data-bs-slide-to="2" class="active hbutton"></button>
+                <!-- <button type="button" data-bs-target="#prnts" data-bs-slide-to="3" class="active"></button>
+            <button type="button" data-bs-target="#prnts" data-bs-slide-to="4" class="active"></button> -->
+                <!-- <button type="button" data-bs-target="#prnts" data-bs-slide-to="5" class="active"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1200">
+                    <img src="oncampus.jpg" alt="Upbring dream in the great atmosphere"
+                        class="d-block mx-auto w-50 h-45%">
+                    <div>
+                        <h4>LIVE | LEARN | GROW</h4>
+                        <P>join the OC community to meet your life-long friends, develop your professional network,
+                            experience hands-on learning and meet with our world-class professors. Enjoy dorm life and
+                            savor our award-winning cafeteria</P>
+
+                        <a href="/" class="abc">ON CAMPUS---></a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="1200">
+                    <img src="oncampus 1.jpg" alt="Schoolign" class="d-block mx-auto w-50 h-45%">
+                    <h1>O&nbsp;N&nbsp;L &nbsp;I &nbsp;N&nbsp; E</h1>
+                    <h4>WORK | STUDY | GROW</h4>
+                    <P>Online programs at OC are specially designed to allow you to work and build your career while you
+                        earn your degree in fields with a high demand for employees.</P>
+
+                    <a href="/" class="abc">ONLINE PROGRAMS---></a>
+                </div>
+                <div class="carousel-item" data-bs-interval="1200">
+                    <img src="oncampus 2.jpg" alt="Still schooling" class="d-block  w-50 h-45% mx-auto">
+                    <h4>Adavance degrees & certification</h4>
+                    <P>Career Builders reports that 33% of employers are hiring those with a graduate degree for jobs
+                        previously held by those with a bachelor's degree alone. Stay on the cutting edge of your
+                        industry with a master's degree!</P>
+                    <a href="/" class="abc">Graduate Programs---></a>
+                </div>
+                <div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#prnts" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#prnts" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <hr>
+        <div class="container">
+            <div class="row ">
+                <h2>What type of student are you?</h2>
+                <div class="col">
+                    <button type="button" class="hbutton"><span class="hspan">
+                            <h6>
+                                On Campus
+                            </h6>
+                            <p style="color: #ffffff;">
+                                For students finishing high school and entering college or students tranferring from
+                                another college to OC
+                            </p>
+
+                        </span>ON CAMPUS</button>
+                </div> <br>
+                <div class="col">
+                    <button type="button" class="hbutton"><span class="hspan">
+                            <h6>
+                                Online
+                            </h6>
+                            <p style="color: #ffffff;">
+                                For students interested in working while in school or taking college classes
+                                concurrently with high school classes
+                            </p>
+                        </span>ONLINE</button>
+                </div><br>
+                <div class="col">
+                    <button type="button" class="hbutton">
+                        <span class="hspan">
+                            <h6>GRADUATE & PROFESSIONAL</h6>
+                            <p style="color: #ffffff;">For those who have completed a bachelor's degree and want to
+                                pursue on advance degree or certificate</p>
+                        </span>GRADUATE & PROFESSIONAL</button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br><br><br>
+        <div class="container" style="background-color: #811429;" width="100%">
+            <p style="font-size: 35px; color: #ffffff;">Check out what is required for your major</p>
+            <a href="/" style="color: #ffffff;"> <button class="hbutton d-block mx-auto" style="height: 80px;">ACADEMIC
+                    CATALOGS<span></span></button></a>
+
+
+
+        </div>
+
+        <div class="container">
+            <div class="col">
+                <img src="proff.jpg" alt="Proffessor" style="width: 100%;">
+            </div>
+            <div class="">
+                <p style="font-size: 40px; ">
+                    Award Win­ning Professors
+                <ul style="font-size: 30px; color: #811429;">
+                    <li>102 full-time faculty.</li>
+                    <li>100 percent Christian.</li>
+                    <li>13-to-1 undergraduate student-to-faculty ratio.</li>
+                    <li>84 percent of classes contain fewer than 30 students.</li>
+                </ul>
+                <a href="/" class="abc">FACULTY & STAFF DIRECTORY</a>
+                </p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="d-flex px5 justify-content-around" style="background-color: #811429; color: #ffffff;">
+            <div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                WHAT'S YOUR NEXT STEP?</div>
+        
+        
+        
+            <div style="font-size: 25px; " >
+                <ul> <a href="#"  style="color: #ffffff;">Request Information</a> </ul>
+                <ul> <a href="#"  style="color: #ffffff;">Schedule a Visit</a> </ul>
+                <ul> <a href="#"  style="color: #ffffff;">Apply Now</a> </ul>
+        
+            </div>
+        
+        </div>
+
+
+
+        <footer>
+            <div class="container-fluid font-monospace" style="background-color:#ffffff; color:#811429">
+                <div class="row " style="background-color:#ffffff">
+                    <div class="col-4  align-items-start" style=" background-color:#ffffff"> <b>Accredited </b><br>
+                        <b>Higher Learning
+                            Commission</b> <br> <a href="#" style="color:#811429">Verify Status Here...</a>
+                    </div>
+                    <div class="col-5" style="background-color:#ffffff">
+                        <div>
+                            <address>
+                                <h6 style="color: #811429;"> Our Location</h6>
+                                <p>
+                                <address style="color: #811429;">2501 E, Memorial Road, OK 73013</address>
+                                </p>
+                            </address>
+                        </div>
+                        <br>
+                        <div class="col-5">
+                            <address>
+                                <div>
+                                    <address>
+                                        <h6 style="color: #811429;"> Contact</h6>
+                                        <p>
+                                            (800) 877-2010
+                                            Info@ec.edu
+                                        </p>
+                                    </address>
+                                </div>
+                            </address>
+                            <div class="row" style="background-color:#ffffff;">
+                                <div class="col-12">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-brands fa-x-twitter fa-2xl" style="color: #811429;"></i>
+                                    </a>
+
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-brands fa-instagram fa-2xl" style="color: #811429;"></i></a>
+
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-brands fa-facebook fa-2xl" style="color: #811429;"></i> </a>
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-brands fa-youtube fa-2xl" style="color: #811429;"></i>
+                                    </a>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="float-lg-end" style="background-color:#ffffff;">
+
+                    <img src="footlogo.png" alt="footerlogo" style="height: 150px; width: 250px;">
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

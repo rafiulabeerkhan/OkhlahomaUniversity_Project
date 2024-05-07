@@ -1,0 +1,137 @@
+p{
+border-top: #811429;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+    color: #811429;
+}
+H6 {
+
+    color: #ffffff; font-size:xx-large;
+
+}
+h2 {
+    color:#811429 ; 
+    background-color:#ffffff;
+}
+addressP{
+    color: #811429;
+}
+/* DIV{
+box-shadow: 0 0 5px cyan;
+}
+DIV:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+} */
+DIV .aaa{
+    box-shadow: 0 0 10px brown;
+    }
+
+    DIV .aaa:hover {
+        box-shadow: 0 0 5px brown, 0 0 25px brown, 0 0 50px brown,
+        0 0 100px brown, 0 0 200px brown
+    }
+    .abc {
+color: #811429; 
+font-size: 30px;
+    }
+
+    .wrapper {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 6px solid #811429;
+
+    }
+.wrapper img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.wrapper img:hover {
+ transform:  scale(1.3);
+ filter: grayscale(0%);
+}
+ 
+.head:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 6px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.3s linear;
+
+}
+.head:hover::before{
+
+transform:scaleX(1);
+
+}
+/* .pdn{
+    padding-left: 40%;
+    padding-top: 50px;
+
+} */
+ .hbutton{
+    position: relative;
+    width: 200px;
+    height: 500px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #811429;
+    background: transparent;
+    color:#811429;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase ;
+ }
+ .hbutton:hover{
+
+background-color: #811429;
+color: #ffffff;
+
+
+ }
+ .hspan{
+background-color:#811429;
+height: 100%;
+width: 0;
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: .1s;
+visibility: hidden;
+
+ }
+ .hbutton:hover .hspan{
+    width: 100%;
+    background-color:#811429;
+    z-index: 2;
+    visibility: visible;
+ }
+
+ ul,li{
+
+    color: #811429;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+tr,th,td{
+
+    color: #811429;
+
+}
+
+
+
+    

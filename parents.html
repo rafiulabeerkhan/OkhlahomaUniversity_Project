@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OC</title>
+    <link rel="icon" type="image/x-icon" href="oclogo2.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+    <div class="text-center " style=" font-family: monospace; font-size: xx-large;
+     background-image: url(oclogo2.png); overflow: hidden;">
+        <img src="oclogo.png" alt="Logo" height="60px" width="70px"> 
+       
+        <h1 style="background-color: #002e46; color: #ffffff;" class="d-inline-block">
+            OKHLAHOMA CHRISTIAN UNIVERSITY
+
+        </h1>
+
+        <button type="button" class="btn me-1  float-end " style="background-color: #811429; color: #ffffff; ; height: 50px;" data-bs-toggle="modal"
+            data-bs-target="#myModal">
+            LOGIN
+        </button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Login to your OC's Account</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" style="color: #811429;">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"
+                                    style="color: #811429;">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1" style="color: #811429;">Check me
+                                    out</label>
+                            </div>
+                            <button type="submit" class="btn" style="background-color: #811429;">Submit</button>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark nav-justified navbar sticky-top">
+        <div class="container-fluid ">
+
+            <a class="navbar-brand rounded-circle" href="/"> <img src="oclogo2.png" alt="OKC" width="50"> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav justify-content-around nav-tabs bg-black me-auto">
+
+                    <li class="nav-item bg-brown "><a class="nav-link text-white" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item bg-brown "> <a class="nav-link text-white" href="/about.html"> About </a>
+
+                    </li>
+
+                    <li class="nav-item bg-brown "><a class="nav-link text-white" href="parents.html">Parents</a></li>
+
+                    <li class="nav-item "><a class="nav-link text-white" href="student.html">Students</a></li>
+
+                    <li class="nav-item "><a class="nav-link text-white" href="services.html">Services</a></li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn" style="background-color:#811429 " type="button">Search</button>
+                </form>
+            </div>
+
+        </div>
+
+        </div>
+    </nav>
+    <div id="prnts" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#prnts" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#prnts" data-bs-slide-to="1" class="active"></button>
+            <button type="button" data-bs-target="#prnts" data-bs-slide-to="2" class="active"></button>
+            <button type="button" data-bs-target="#prnts" data-bs-slide-to="3" class="active"></button>
+            <button type="button" data-bs-target="#prnts" data-bs-slide-to="4" class="active"></button>
+            <!-- <button type="button" data-bs-target="#prnts" data-bs-slide-to="5" class="active"></button> -->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="700">
+                <img src="carousel-1.jpg" alt="Upbring dream in the great atmosphere"
+                    class="d-block mx-auto w-50 h-45%">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="carousel-3.jpg" alt="Schoolign" class="d-block mx-auto w-50 h-45%">
+            </div>
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="carousel-4.jpg" alt="Still schooling" class="d-block  w-50 h-45% mx-auto">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="carousel-6.jpg" alt="PROUD MOMENT" class="d-block w-50 h-45% mx-auto">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#prnts" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#prnts" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <hr>
+    <div class="container-fluid ">
+        <div>
+            <h1> P A R E N T S &nbsp;&nbsp;& &nbsp;&nbsp; F A M I L I E S</h1>
+            <p>If they haven't said it lately, let us remind you, your Eagle misses you. He/she appreciates you for
+                getting them this far, and they hope to make you proud.</p>
+            <br>
+
+
+            <div style="background-color: #bde3dc; color: #811429;  height: 500px; ">
+                <p style="font-size: 20px; padding-left: 40%;padding-top: 50px;"> V A L U E&nbsp;&nbsp; &&nbsp;&nbsp; C
+                    O S T S </p>
+
+                <h5 style="font-size: 40px; padding-left: 40%; ">Tuition, Scholarships, and Affordability</h5>
+                <p style="padding-left: 40%;">How does the cost of OC com­pare to pub­lic universities? What about other
+                    private universities? Can I afford Oklahoma Christian University? <br>
+
+                    You've got questions...
+                    <br>
+                    <br> <br>
+                    <a href="#" style="font-family: monospace;" class="abc">WE'VE GOT ANSWERS</a>
+
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container ">
+
+
+        <div class=" row">
+            <DIV class="abc">
+                <a href="#" class=" abc">VALUE & COSTS</a><br>
+                <a href="#" class=" abc">VISITING CAMPUS</a><br>
+                <a href="#" class=" abc">EAGLE FAMILIES BLOG </a><br>
+                <a href="#" class=" abc ">CONCURRENT ENROLLMENT</a> <br>
+            </div> <br> <br> <br>
+
+            <div class="wrapper col-5">
+                <img src="carousel-2.jpg" alt="Proud Kid" width="w-75" height="w-25">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container-fluid" style="background-color: #bde3dc; height: 400px;padding-left: 40%;padding-top: 50px;">
+        <div class="row">
+            <h2 style="font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Eagle Families Blog </h2>
+            <p style="font-size: 25px;">RECENT ENTRIES</p>
+            <div class="col">
+                <a href="#" style="font-size: 35px;" class="abc">Eagle Lingo</a>
+                <p> JUN 03, 2021</p>
+            </div>
+            <div class="col">
+                <a href="#" style="font-size: 35px;" class="abc">Dedicated to Your Freshman Experience</a>
+                <p> JUN 03, 2021</p>
+            </div>
+            <div class="col">
+                <a href="#" style="font-size: 35px;" class="abc">4 Ways to Get the Most Out of Take Flight</a>
+                <p> JUN 03, 2021</p>
+                <br>
+                <a href="#" class=" abc" style="font-size: 20px;">VIEW MORE FROM THIS BLOG--->
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <img src="carousel-5.jpg" alt="OCWA" style="width: 70%;">
+            <div class="col" style="padding-left: 5%; padding-top: 10%;">
+                <h2>OCWA</h2>
+                <p>Since its beginning in 1955, Oklahoma Christian Women's Association (OCWA) has contributed more than
+                    $1 million in equipment, materials and funds to enhance the programs of the university. Add to that,
+                    countless hours of time and effort committed to make a difference in the lives of students, this
+                    group is a source of rich blessings.</p> <br>
+                <a href="#" class="abc"> JOIN OCWA ON FACEBOOK ----></a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <br> <br> <br>
+    <div class="container" style="height: 700%; background-color:#ffffff; color: #811429; text-align: center;">
+        <h1>Stay in the loop — sign up for our Eagle Fam­i­lies email for COVID-19 updates, stu­dent news and
+            announcements.</h1>
+        <br><br> <br>
+        <button type="button" class="hbutton" style="height: 100px;"><span class="hspan">Click to Sign up</span>Sign Up</button>
+
+    </div>
+    <br><br><br>
+    <div class="container-fluid">
+        <div class="row" style="padding-top: 5px; ">
+            <h2>Send a Gift to Your Student</h2>
+
+            <div class="col" style="text-align: left; padding-right: 5px; background-color:#bde3dc">
+                <p style="color:#811429">You may be miles away from your OC student, but you can send a little love
+                    their way with the help of
+                    the Oklahoma Christian Women's Association (OCWA). We offer gifts for you to purchase for birthdays,
+                    finals week, or just because! And best of all, all proceeds from these gifts go towards improving
+                    OC's campus.</p>
+            </div>
+
+            <div class="col">
+                <h6>
+                    Personal Cake
+                </h6>
+                <p>
+                    Personal cakes are $20 each with the option to add a gift card - and perfect to celebrate birthdays
+                    or any occasion!
+                </p>
+                <a href="#" class="text-decoration-none abc"> Order Now</a>
+            </div>
+            <div class="col">
+                <h6>
+                    Spring Sing Bouquets
+                </h6>
+                <p>
+                    Whether your student prefers a bouquet of flowers or candy, we have you covered for just $20. Send
+                    these to your student to congratulate them on their Spring Sing show!
+                </p>
+                <a href="#" class="text-decoration-none abc"> Order Now</a>
+            </div>
+            <div class="col">
+                <h6>
+                    Student Gift Package
+                </h6>
+                <p>
+                    Gift packages are $20 and a bag full of snacks and goodies with the option to add a gift card, great
+                    for a pick-me-up!
+                    <a href="#" class="text-decoration-none abc"> Order Now</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br><br>
+
+
+
+    <div class="container-fluid">
+        
+    <div class="container" style="width: 40%;">
+        <h4 style="color:#811429;">FOLLOW US ON SOCIAL MEDIA</h4>
+        <div class="row">
+            <button type="button" class="hbutton" style="height: 100px;">
+                <a href="#" class="text-decoration-none">
+                    <i class="fa-brands fa-x-twitter fa-2xl" style="color: #811429; "></i>
+                </a>
+                <span class="hspan">Log into your Twitter</span>TWITTER</button>
+        </div>
+        <div class="row">
+            <button type="button" class="
+            hbutton" style="height: 100px;">
+                <a href="#" class="text-decoration-none">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #811429;"></i></a>
+                <span class="hspan">Log into your Instagram </span>INSTAGRAM</button>
+        </div>
+        <div class="row">
+            <button type="button" class="hbutton" style="height: 100px;">
+                <a href="#" class="text-decoration-none">
+                    <i class="fa-brands fa-facebook fa-2xl" style="color: #811429;"></i> </a>
+                <span class="hspan">Log into your Facebook</span>FACOBOOK</button>
+        </div>
+        <div class="row">
+            <button type="button" class="hbutton" style="height: 100px;">
+                <a href="#" class="text-decoration-none">
+                    <i class="fa-brands fa-youtube fa-2xl" style="color: #811429;"></i>
+                </a>
+                <span class="hspan">Log into your Youtube</span>YOUTUBE</button>
+        </div>
+
+    </div>
+    </div>
+
+    
+
+    <div class="d-flex px5 justify-content-around" style="background-color: #811429; color: #ffffff;">
+        <div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+            WHAT'S YOUR NEXT STEP?</div>
+
+
+
+        <div style="font-size: 25px; ">
+            <ul> <a href="#" style="color: #ffffff;">Request Information</a> </ul>
+            <ul> <a href="#" style="color: #ffffff;">Schedule a Visit</a> </ul>
+            <ul> <a href="#" style="color: #ffffff;">Apply Now</a> </ul>
+
+        </div>
+
+    </div>
+    <br><br>
+    <footer>
+        <div class="container-fluid font-monospace" style="background-color:#ffffff color:#811429">
+            <div class="row " style="background-color:#ffffff">
+                <div class="col-4  align-items-start" style=" background-color:#ffffff"> <b>Accredited </b><br>
+                    <b>Higher Learning
+                        Commission</b> <br> <a href="#" style="color:#811429">Verify Status Here...</a>
+                </div>
+                <div class="col-5" style="background-color:#ffffff">
+                    <div>
+                        <address>
+                            <h6 style="color: #811429;"> Our Location</h6>
+                            <p>
+                            <address style="color: #811429;">2501 E, Memorial Road, OK 73013</address>
+                            </p>
+                        </address>
+                    </div>
+                    <br>
+                    <div class="col-5">
+                        <address>
+                            <div>
+                                <address>
+                                    <h6 style="color: #811429;"> Contact</h6>
+                                    <p>
+                                        (800) 877-2010
+                                        Info@ec.edu
+                                    </p>
+                                </address>
+                            </div>
+                        </address>
+                        <div class="row" style="background-color:#ffffff;">
+                            <div class="col-12">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-x-twitter fa-2xl" style="color: #811429;"></i>
+                                </a>
+
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-instagram fa-2xl" style="color: #811429;"></i></a>
+
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-facebook fa-2xl" style="color: #811429;"></i> </a>
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-youtube fa-2xl" style="color: #811429;"></i>
+                                </a>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+            <div class="float-lg-end" style="background-color:#ffffff;">
+
+                <img src="footlogo.png" alt="footerlogo" style="height: 150px; width: 250px;">
+
+            </div>
+
+        </div>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
